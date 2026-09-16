@@ -1,4 +1,4 @@
-# SELinux Explained
+# SELinux
 
 SELinux (Security-Enhanced Linux) is a mandatory access control (MAC)
 system built into the Linux kernel. To understand what that means and why
