@@ -2233,6 +2233,7 @@
     },
     "useGooglePlaces": false
   },
+  "obsidian-style-settings": {},
   "obsidian-tagfolder": {
     "displayMethod": "NAME",
     "alwaysOpen": true,
