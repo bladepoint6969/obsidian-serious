@@ -1,0 +1,14 @@
+# Obsidian workspace state (device-specific, changes constantly)
+/.obsidian/workspace.json
+/.obsidian/workspace-mobile.json
+
+# Community plugin code (re-downloaded by Obsidian per device)
+/.obsidian/plugins/
+
+# Obsidian trash
+.trash/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "code-emitter",
+    "version": "0.4.0"
+  },
+  {
+    "id": "dataview",
+    "version": "0.5.68"
+  },
+  {
+    "id": "mermaid-tools",
+    "version": "1.4.1"
+  },
+  {
+    "id": "OA-file-hider",
+    "version": "1.1.1"
+  },
+  {
+    "id": "obsidian-excalidraw-plugin",
+    "version": "2.27.3"
+  },
+  {
+    "id": "obsidian-excel-to-markdown-table",
+    "version": "0.4.0"
+  },
+  {
+    "id": "obsidian-git",
+    "version": "2.39.0"
+  },
+  {
+    "id": "obsidian-hider",
+    "version": "1.7.1"
+  },
+  {
+    "id": "obsidian-kanban",
+    "version": "2.0.51"
+  },
+  {
+    "id": "obsidian-languagetool-plugin",
+    "version": "0.4.3"
+  },
+  {
+    "id": "obsidian-latex-suite",
+    "version": "1.13.1"
+  },
+  {
+    "id": "obsidian-linter",
+    "version": "1.33.0"
+  },
+  {
+    "id": "obsidian-map-view",
+    "version": "6.1.4"
+  },
+  {
+    "id": "obsidian-tagfolder",
+    "version": "0.18.22"
+  },
+  {
+    "id": "table-editor-obsidian",
+    "version": "0.23.2"
+  },
+  {
+    "id": "url-into-selection",
+    "version": "1.11.4"
+  }
+]
