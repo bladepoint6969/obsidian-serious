@@ -2,5 +2,8 @@
   "accentColor": "",
   "theme": "obsidian",
   "monospaceFontFamily": "JetBrainsMonoNL Nerd Font Mono",
-  "cssTheme": ""
+  "cssTheme": "Nightfox",
+  "enabledCssSnippets": [
+    "carbonfox"
+  ]
 }

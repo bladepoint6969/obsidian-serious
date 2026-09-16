@@ -1,0 +1,83 @@
+/*
+ * Carbonfox palette override for the Nightfox Obsidian theme.
+ *
+ * The Nightfox theme is driven entirely by palette variables. Carbonfox is
+ * a sibling palette in the same nightfox.nvim family, so this snippet simply
+ * retargets those variables to Carbonfox's colours. Values were computed from
+ * the upstream carbonfox.lua palette using the same colour math the plugin
+ * uses (brighten / shade / blend), so they match the editor/terminal theme.
+ *
+ * Carbonfox is dark-only, so this only overrides `.theme-dark`. Light mode is
+ * left as stock Nightfox.
+ *
+ * To disable: toggle this snippet off under Settings > Appearance > CSS snippets.
+ */
+
+.theme-dark {
+	/* Accent (derived from Carbonfox blue #78A9FF, in HSL) */
+	--accent-h: 218;
+	--accent-s: 100%;
+	--accent-l: 74%;
+
+	/* Monochrome endpoints */
+	--mono-rgb-100: 242, 244, 248; /* fg  #f2f4f8 */
+	--mono-rgb-0: 22, 22, 22;      /* bg  #161616 */
+
+	/* Base scale: dark -> light.
+	 * Anchored to Carbonfox bg (#161616) and fg (#f2f4f8) brighten steps,
+	 * with 05/25/40/50 interpolated to keep UI gradations smooth. */
+	--color-base-00: #0c0c0c;
+	--color-base-05: #111111;
+	--color-base-10: #161616;
+	--color-base-20: #252525;
+	--color-base-25: #2d2d2d;
+	--color-base-30: #353535;
+	--color-base-35: #535353;
+	--color-base-40: #626262;
+	--color-base-50: #777777;
+	--color-base-60: #7b7c7e;
+	--color-base-70: #b6b8bb;
+	--color-base-100: #f2f4f8;
+	--color-base-110: #f9fbff;
+
+	/* Named colours: base / bright / dim */
+	--color-cyan: #33b1ff;
+	--color-cyan-bright: #52bdff;
+	--color-cyan-dim: #2b96d9;
+	--color-pink: #ff7eb6;
+	--color-pink-bright: #ff91c1;
+	--color-pink-dim: #d96b9b;
+	--color-purple: #be95ff; /* Carbonfox "magenta" */
+	--color-purple-bright: #c8a5ff;
+	--color-purple-dim: #a27fd9;
+	--color-blue: #78a9ff;
+	--color-blue-bright: #8cb6ff;
+	--color-blue-dim: #6690d9;
+	--color-orange: #3ddbd9; /* Carbonfox "orange" is teal in this palette */
+	--color-orange-bright: #5ae0df;
+	--color-orange-dim: #34bab8;
+	--color-red: #ee5396;
+	--color-red-bright: #f16da6;
+	--color-red-dim: #ca4780;
+	--color-yellow: #08bdba; /* Carbonfox "yellow" is teal in this palette */
+	--color-yellow-bright: #2dc7c4;
+	--color-yellow-dim: #07a19e;
+	--color-green: #25be6a;
+	--color-green-bright: #46c880;
+	--color-green-dim: #1fa25a;
+
+	/* RGB variants (base) */
+	--color-cyan-rgb: 51, 177, 255;
+	--color-pink-rgb: 255, 126, 182;
+	--color-purple-rgb: 190, 149, 255;
+	--color-blue-rgb: 120, 169, 255;
+	--color-orange-rgb: 61, 219, 217;
+	--color-red-rgb: 238, 83, 150;
+	--color-yellow-rgb: 8, 189, 186;
+	--color-green-rgb: 37, 190, 106;
+
+	/* Extra stuff */
+	--graph-node-tag: #25be6a;
+	--code-comment: #6e6f70;
+	--code-inline-background: var(--color-base-00);
+}
