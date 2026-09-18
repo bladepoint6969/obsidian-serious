@@ -35,7 +35,7 @@ There are a couple types: there are games where player power is entirely determi
 In these games, the items you get through exploration are the only source of player power; the more you discover, the more powerful you become.
 
 - Hollow Knight/Silksong
-- Super Metroid/Metroid Zero Mission/Metroid Prime
+- Super Metroid/Metroid Zero Mission/Metroid Prime/Metroid Dread
 - Ori and the Blind Forest/Ori and the Will of the Wisps
 - Shantae and the Seven Sirens
 
