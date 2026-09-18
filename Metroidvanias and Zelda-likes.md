@@ -4,17 +4,17 @@
 
 - A Link to the Past
 - The Minish Cap
-- A Link Between Worlds
+- A Link Between Worlds 
 
 ## 3D Zelda
 
-- Ocarina of Time
-- Majora's Mask
-- Wind Waker
-- Twilight Princess
-- Skyward Sword
-- Breath of the Wild
-- Tears of the Kingdom
+- Ocarina of Time - N64/GC/3DS/Switch (through NSO)/Switch 2 Remake
+- Majora's Mask - N64/3DS/Switch (through NSO)
+- Wind Waker - GC/Wii U
+- Twilight Princess - GC/Wii/Wii U
+- Skyward Sword - Wii/Switch
+- Breath of the Wild - Switch
+- Tears of the Kingdom - Switch
 
 Skyward Sword is more linear in its structure than the other games.
 
@@ -33,11 +33,19 @@ In these games, the items you get through exploration are the only source of pla
 - Hollow Knight/Silksong
 - Super Metroid/Metroid Zero Mission/Metroid Prime
 - Ori and the Blind Forest/Ori and the Will of the Wisps
+- Shantae and the Seven Sirens
 
 ### Level-up Games
 
 In these games, in addition to equipment and skill pickups, players become stronger by defating enemies and levelling up. Often, enemies will be stronger or weaker against certain damage types, so seemingly weaker equipment may be a better choice in some situations.
 
 - Castlevania: Symphony of the Night
-- Bloodsstained: Ritual of the Night
+- Bloodstained: Ritual of the Night
 - Blade Chimera
+
+## Zelda-ish
+
+- Batman: Arkham City/Arkham Knight
+- Star Wars Jedi: Fallen Order
+
+#games
