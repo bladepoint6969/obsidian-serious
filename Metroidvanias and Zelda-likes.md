@@ -49,7 +49,7 @@ In these games, in addition to equipment and skill pickups, players become stron
 
 ## Zelda-ish
 
-- Batman: Arhkam Asylum/Arkham City/Arkham Knight
+- Batman: Arkham Asylum/Arkham City/Arkham Knight
 - Star Wars Jedi: Fallen Order
 
 #games
