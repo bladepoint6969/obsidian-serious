@@ -51,5 +51,6 @@ In these games, in addition to equipment and skill pickups, players become stron
 
 - Batman: Arkham Asylum/Arkham City/Arkham Knight
 - Star Wars Jedi: Fallen Order
+- Control
 
 #games
