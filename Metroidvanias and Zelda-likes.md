@@ -3,8 +3,12 @@
 ## 2D Zelda
 
 - A Link to the Past
+- Link's Awakening
 - The Minish Cap
 - A Link Between Worlds 
+- Echoes of Wisdom
+
+Of these, I don't particularly care for Echoes of Wisdom; the combat system isn't really to my taste.
 
 ## 3D Zelda
 
@@ -45,7 +49,7 @@ In these games, in addition to equipment and skill pickups, players become stron
 
 ## Zelda-ish
 
-- Batman: Arkham City/Arkham Knight
+- Batman: Arhkam Asylum/Arkham City/Arkham Knight
 - Star Wars Jedi: Fallen Order
 
 #games
