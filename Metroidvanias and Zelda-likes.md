@@ -53,4 +53,12 @@ In these games, in addition to equipment and skill pickups, players become stron
 - Star Wars Jedi: Fallen Order
 - Control
 
+## Games I Haven't Played
+
+These are games that I haven't played myself, but have hear good things about.
+
+- Axiom Verge
+- Tunic
+- Animal Well
+
 #games
