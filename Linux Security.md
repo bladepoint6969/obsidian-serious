@@ -26,7 +26,7 @@ Map of Content for Linux security topics -- a hub linking out to the access-cont
 
 ```dataview
 LIST
-FROM (#linux/selinux OR #security) AND !"templates"
+FROM (#linux AND #security) AND !"templates"
 WHERE file.name != this.file.name
 SORT file.name ASC
 ```
