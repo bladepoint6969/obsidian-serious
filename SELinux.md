@@ -151,4 +151,4 @@ This is what actually matters day to day. When something breaks and you suspect 
 
 The one-sentence summary: SELinux labels every process and resource, then enforces a central, default-deny policy that says which process types may act on which resource types -- so that even a fully compromised service can only do what its job explicitly requires.
 
-#linux #security
+#linux/selinux #security
