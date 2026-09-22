@@ -12,4 +12,4 @@ The output describes what was denied, offers a likely cause, and recommends a re
 
 `sealert` sits at step three of the usual SELinux troubleshooting workflow: after confirming SELinux is the cause and reading the raw denials, use it to get a human-readable explanation before applying the right fix.
 
-#linux #security
+#linux/selinux #security

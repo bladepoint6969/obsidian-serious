@@ -6,4 +6,4 @@ In [[SELinux]], the role is one of the four fields in a security context (for ex
 
 RBAC is a general access-control concept that appears well beyond SELinux -- in operating systems, databases, and cloud IAM systems -- wherever administrators prefer to manage permissions through named roles instead of per-user grants. It is one of several models that can sit under a broader [[Mandatory Access Control]] policy.
 
-#linux #security
+#security

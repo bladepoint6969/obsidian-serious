@@ -8,4 +8,4 @@ MAC is the model that [[SELinux]] implements in the Linux kernel. Other implemen
 
 The value proposition: because the policy confines a process to only what its job requires, a compromised service can only do what the policy explicitly allows, regardless of what the underlying user account could otherwise reach.
 
-#linux #security
+#security

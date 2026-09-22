@@ -8,4 +8,4 @@ DAC's fundamental weakness is that it trusts processes to behave, and access fol
 
 This is precisely the gap that [[Mandatory Access Control]] (MAC) closes. Systems like [[SELinux]] layer a MAC policy on top of DAC: an operation must first pass the DAC check, and then the MAC layer can still deny it based on process and resource labels rather than user identity. DAC asks "does this user own this / have the bits?"; MAC asks "does policy allow this process type to do this to this resource type?"
 
-#linux #security
+#security

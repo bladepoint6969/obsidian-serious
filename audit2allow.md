@@ -13,4 +13,4 @@ The first command produces `mymodule.pp` (a compiled policy package) along with 
 
 Generating a custom module should be a last resort, used only after understanding why the denial happened -- never blindly. A denial can be a legitimate signal of an attack, and blindly allowing it defeats the point of [[Mandatory Access Control]]. Prefer flipping a boolean or correcting a label with [[semanage]] and [[restorecon]] first; reach for `audit2allow` only when no cleaner fix exists. The [[sealert]] output often names the appropriate fix before it comes to this.
 
-#linux #security
+#linux/selinux #security

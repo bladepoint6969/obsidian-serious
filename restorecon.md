@@ -13,4 +13,4 @@ The `-R` recurses into directories and `-v` reports each change. Because `restor
 
 This tool is central to the SELinux labelling workflow, and a full relabel is also what is required when switching SELinux from disabled back to enforcing, since labels are not maintained while it is off.
 
-#linux #security
+#linux/selinux #security

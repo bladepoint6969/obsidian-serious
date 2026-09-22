@@ -8,4 +8,4 @@ Because decisions are made from labels rather than paths, type enforcement is wh
 
 Type Enforcement is SELinux's primary expression of [[Mandatory Access Control]]. It works alongside the context's other fields, which support [[Role-Based Access Control|RBAC]] and [[Multi-Level Security|MLS/MCS]], though in everyday troubleshooting the type field is what matters most.
 
-#linux #security
+#linux/selinux #security

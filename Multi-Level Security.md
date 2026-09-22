@@ -8,4 +8,4 @@ Multi-Category Security (MCS) is a simpler, more widely used variant built on th
 
 Both are refinements layered on top of SELinux's core [[Mandatory Access Control]] policy.
 
-#linux #security
+#security

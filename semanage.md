@@ -13,4 +13,4 @@ This only records the rule; it does not relabel existing files. Apply it to file
 
 `semanage` manages much more than file contexts -- ports, booleans, users, logins, and interfaces among them (for example, `semanage port -a` to permit a service to bind a non-standard port). It is a central tool in the SELinux troubleshooting workflow when the right fix is a label or policy customisation rather than a boolean.
 
-#linux #security
+#linux/selinux #security

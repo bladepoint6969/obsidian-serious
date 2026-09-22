@@ -10,4 +10,4 @@ sudo journalctl -t setroubleshoot
 
 Interactively, you query its analysis with `sealert`, for example `sudo sealert -a /var/log/audit/audit.log`. Its recommendations typically point toward the cleanest fix first -- a boolean, or a label correction with [[semanage]] and [[restorecon]] -- and only toward generating a custom module with [[audit2allow]] as a last resort.
 
-#linux #security
+#linux/selinux #security
