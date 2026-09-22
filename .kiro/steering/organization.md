@@ -42,6 +42,9 @@ status, type, or any other facet.
 
 - Connect related notes with wikilinks (`[[Note Name]]`) rather than
   relying on folders to group them.
+- When a subject deserves its own note but none exists, link to it anyway
+  with a wikilink (`[[Subject]]`). Opening that unresolved link creates the
+  note, and Obsidian tracks the backlink automatically.
 - As clusters of related notes form, create a Map of Content (MOC): a
   hub note that links out to the notes on a topic. Prefer MOCs over
   folders for "show me everything about X" navigation.
