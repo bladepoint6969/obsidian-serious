@@ -1,14 +1,14 @@
 # SELinux
 
-SELinux (Security-Enhanced Linux) is a mandatory access control (MAC) system built into the Linux kernel. To understand what that means and why it matters, it helps to start with what it replaces or supplements.
+SELinux (Security-Enhanced Linux) is a [[Mandatory Access Control|mandatory access control (MAC)]] system built into the Linux kernel. To understand what that means and why it matters, it helps to start with what it replaces or supplements.
 
 ## The core idea: MAC vs DAC
 
-Standard Linux permissions use Discretionary Access Control (DAC) -- the `rwx` bits and ownership you set with `chmod` and `chown`. It is called "discretionary" because the owner of a resource has discretion to grant access to it. If you own a file, you can `chmod 777` it and hand access to everyone.
+Standard Linux permissions use [[Discretionary Access Control]] (DAC) -- the `rwx` bits and ownership you set with `chmod` and `chown`. It is called "discretionary" because the owner of a resource has discretion to grant access to it. If you own a file, you can `chmod 777` it and hand access to everyone.
 
 DAC has a fundamental weakness: it trusts processes to behave. If a web server runs as user `apache`, it can access anything `apache` can access. If an attacker compromises that web server, they inherit all of `apache`'s permissions -- they can read every file `apache` owns, and potentially anything world-readable like `/etc/passwd`.
 
-Mandatory Access Control (MAC) adds a second layer that the process owner cannot override. Rules are set centrally by policy, and even root is constrained by them. The kernel checks both DAC and MAC: an operation must pass DAC first, then SELinux gets a veto.
+[[Mandatory Access Control]] (MAC) adds a second layer that the process owner cannot override. Rules are set centrally by policy, and even root is constrained by them. The kernel checks both DAC and MAC: an operation must pass DAC first, then SELinux gets a veto.
 
 The mental model: DAC asks "does this user own this / have the bits?" SELinux asks "does policy explicitly allow this specific process type to do this specific thing to this specific resource type?" If policy does not say yes, the answer is no (default-deny).
 
@@ -25,11 +25,11 @@ system_u:object_r:httpd_sys_content_t:s0
 Those four fields are:
 
 - user (`system_u`) -- the SELinux user (not the same as a Linux user)
-- role (`object_r`) -- used mainly for RBAC and process transitions
+- role (`object_r`) -- used mainly for [[Role-Based Access Control|RBAC]] and process transitions
 - type (`httpd_sys_content_t`) -- the field that matters most in practice
-- level (`s0`) -- for MLS/MCS (multi-level/category security), often ignorable
+- level (`s0`) -- for [[Multi-Level Security|MLS/MCS]] (multi-level/category security), often ignorable
 
-In everyday use, 99% of SELinux troubleshooting is about the type field. This model is called Type Enforcement (TE).
+In everyday use, 99% of SELinux troubleshooting is about the type field. This model is called [[Type Enforcement]] (TE).
 
 You can see labels everywhere with the `-Z` flag:
 
@@ -99,7 +99,7 @@ This is what actually matters day to day. When something breaks and you suspect 
    sudo journalctl -t setroubleshoot
    ```
 
-3. Get a human-readable explanation and suggested fix. The `setroubleshoot` tools translate cryptic denials into plain guidance:
+3. Get a human-readable explanation and suggested fix. The [[setroubleshoot]] tools translate cryptic denials into plain guidance:
 
    ```bash
    sudo sealert -a /var/log/audit/audit.log
@@ -140,12 +140,12 @@ This is what actually matters day to day. When something breaks and you suspect 
 | `getenforce` / `setenforce` | Check / change mode |
 | `ls -Z`, `ps -Z`, `id -Z` | View labels/contexts |
 | `getsebool -a` / `setsebool -P` | List / set booleans |
-| `semanage fcontext` | Define persistent file label rules |
-| `restorecon -Rv` | Apply correct labels to files |
+| [[semanage]] `fcontext` | Define persistent file label rules |
+| [[restorecon]] `-Rv` | Apply correct labels to files |
 | `chcon` | Change a label directly (non-persistent) |
 | `ausearch -m avc` | Find denial events |
-| `sealert -a` | Explain denials in plain language |
-| `audit2allow` | Generate policy from denials |
+| [[sealert]] `-a` | Explain denials in plain language |
+| [[audit2allow]] | Generate policy from denials |
 
 ---
 
